@@ -1,16 +1,89 @@
 
 body{
   background: #E9D5DA;
+  margin: 0px}
+a {
+  color:white;
 }
+.sobre_mi{
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  right: 360px;
+  top: 25px;
+}
+.proyectos{
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  right: 185px;
+  top: 25px;
+
+}
+.Contacto{
+  text-decoration: none;
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+  top: 25px;
+
+}
+.div_menu{
+
+  position: relative;
+  background: black;
+  height: 80px;
+
+
+
+}
+
+
+.space_top_menu{
+  position: relative;
+
+
+
+}
+.img_fire{
+  margin-top:-1px;
+  margin-left: 30px;
+  height: 80px;
+  position: absolute;
+
+}
+
+.div_1{
+  background: red;
+
+}
+.div_2{
+  background: blue;
+  color: white;
+
+}
+
 p{
-  margin: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
+
 #foto_AB{
   border-radius: 100%;
   margin-top: 10%;
   margin-right: 10%;
   margin-left: 10%
 }
+h2{color:white;
+}
 
+@font-face {
+  font-family: "PT_Serif";
+  src: url("PT_Serif/PTSerif-Regular.ttf");
+}
+
+
+.prueba{
+  font-family: "PT_Serif", sans-serif;
 
 }
