@@ -1,89 +1,61 @@
 
 body{
-  background: #E9D5DA;
-  margin: 0px}
-a {
-  color:white;
+  margin: 0;
+  text-align: center;
 }
-.sobre_mi{
-  text-decoration: none;
-  display: inline-block;
-  position: absolute;
-  right: 360px;
-  top: 25px;
-}
-.proyectos{
-  text-decoration: none;
-  display: inline-block;
-  position: absolute;
-  right: 185px;
-  top: 25px;
-
-}
-.Contacto{
-  text-decoration: none;
-  display: inline-block;
-  position: absolute;
-  right: 30px;
-  top: 25px;
-
-}
-.div_menu{
-
+.upper_bar{
   position: relative;
+  bottom: 21px;
   background: black;
-  height: 80px;
-
-
-
-}
-
-
-.space_top_menu{
-  position: relative;
-
-
-
+  text-align: right;
+  height: 50px;
 }
 .img_fire{
-  margin-top:-1px;
-  margin-left: 30px;
-  height: 80px;
-  position: absolute;
+  padding-left: 30px;
+  width: 50px;
+  float:left;
+}
+.upper_bar_options{
+padding-top: 30px
+}
+.sobre_mi{
+margin-right: 30px;
+text-decoration: none;
+color: white;
+}
+.proyectos{
+margin-right: 30px;
+text-decoration: none;
+color: white;
+}
+.contacto{
+margin-right: 30px;
+text-decoration: none;
+color: white;
+}
+.presentation_row{
+  display: block;
+  position: relative;
+  top:120px;
+  background: None;
+  width: 600px;
+  height: 245px;
+  margin:auto;
 
 }
-
-.div_1{
-  background: red;
-
+.presentation_photo{
+  border-radius: 20%;
+  width: 240px;
+  margin-left: 0;
+  margin-right: 30px;
+  float:left;
 }
-.div_2{
-  background: blue;
-  color: white;
-
+.nombre{
+  padding-top: 110px;
+  margin: 0;
+  font-size: 20;
 }
-
-p{
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-
-#foto_AB{
-  border-radius: 100%;
-  margin-top: 10%;
-  margin-right: 10%;
-  margin-left: 10%
-}
-h2{color:white;
-}
-
-@font-face {
-  font-family: "PT_Serif";
-  src: url("PT_Serif/PTSerif-Regular.ttf");
-}
-
-
-.prueba{
-  font-family: "PT_Serif", sans-serif;
-
+.description{
+  font-size: 25px;
+  margin: 10px;
 }
