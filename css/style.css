@@ -1,9 +1,28 @@
 
+@font-face {
+  font-family: "PlayfairDisplay";
+  src: url("../Fonts/PlayfairDisplay-BoldItalic.ttf");
+}
+@font-face {
+  font-family: "RobotoMono";
+  src: url("../Fonts/RobotoMono-SemiBold.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "RobotoMono";
+  src: url("../Fonts/RobotoMono-Regular.ttf");
+  font-weight: normal;
+}
+a{
+  text-decoration: none;
+  color:black;
+}
 body{
   margin: 0;
   text-align: center;
 }
 .upper_bar{
+  display:block;
   position: relative;
   bottom: 21px;
   background: black;
@@ -34,13 +53,14 @@ text-decoration: none;
 color: white;
 }
 .presentation_row{
-  display: block;
+  display: inline-block;
   position: relative;
   top:120px;
   background: None;
-  width: 600px;
-  height: 245px;
+  width: 500px;
+  height: 320px;
   margin:auto;
+
 
 }
 .presentation_photo{
@@ -51,11 +71,19 @@ color: white;
   float:left;
 }
 .nombre{
+  font-family:PlayfairDisplay;
+  font-size: 32px;
   padding-top: 110px;
   margin: 0;
   font-size: 20;
 }
 .description{
-  font-size: 25px;
+  font-family: RobotoMono;
+  font-size: 18px;
   margin: 10px;
+}
+.brand_name{
+  font-family: RobotoMono;
+  font-weight: bold;
+  font-size: 20px;
 }
