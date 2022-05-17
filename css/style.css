@@ -18,16 +18,17 @@ a{
   color:black;
 }
 body{
+  background: #DDDDDD;
   margin: 0;
   text-align: center;
 }
 .upper_bar{
-  display:block;
   position: relative;
   bottom: 21px;
-  background: black;
+  background: #1B1A17;
   text-align: right;
   height: 50px;
+  width: 100%;
 }
 .img_fire{
   padding-left: 30px;
@@ -56,34 +57,38 @@ color: white;
   display: inline-block;
   position: relative;
   top:120px;
-  background: None;
-  width: 500px;
-  height: 320px;
+  background: none;
+  /* background: blue; */
+  width: 1100px;
+  height:640px;
   margin:auto;
-
-
 }
 .presentation_photo{
+  position: relative;
   border-radius: 20%;
-  width: 240px;
+  width: 480px;
   margin-left: 0;
   margin-right: 30px;
   float:left;
 }
 .nombre{
   font-family:PlayfairDisplay;
-  font-size: 32px;
-  padding-top: 110px;
+  font-size: 48px;
+  padding-top: 250px;
   margin: 0;
   font-size: 20;
 }
 .description{
   font-family: RobotoMono;
-  font-size: 18px;
+  font-size: 25px;
   margin: 10px;
 }
 .brand_name{
   font-family: RobotoMono;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 28px;
+}
+.hr_1{
+  margin-top: 260px;
+  width: 20%;
 }
