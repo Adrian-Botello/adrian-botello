@@ -78,7 +78,7 @@ p {
   align-items: start;
   justify-content: center;
   font-family: RobotoMono-Regular;
-  font-size:xx-large;
+  font-size:x-large;
   text-align: justify;
   min-width: 40rem;
   max-width: 40rem;
@@ -137,7 +137,7 @@ p {
         text-align: justify;
         order:0;
         padding-bottom: 100px;
-
+        font-size: 1.8rem;
     }
     .presentation{
       order:3;
