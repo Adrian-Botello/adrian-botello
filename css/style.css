@@ -1,0 +1,134 @@
+
+@font-face {
+  font-family: "RobotoMono-Regular";
+  src: url("../Fonts/RobotoMono-Regular.ttf");
+}
+@font-face {
+  font-family: "Playwrite";
+  src: url("../Fonts/Playwrite.ttf");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../Fonts/Sono_Medium.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "PTSerif-Regular";
+  src: url("../Fonts/PTSerif-Regular.ttf");
+  font-weight: normal;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-family: Sono_Medium; 
+}
+body{
+  
+  margin: 0;
+  background-color: #cccecf;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+p {
+  font-family: Sono_Medium;   
+}
+.name{
+  font-family: Playwrite;
+  font-size: 2rem;
+  font-weight: bolder;
+  color: white;
+}
+.options{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 3rem;
+  color: white;  
+ 
+}
+.options p {
+  font-size:1.3rem;
+  color: white; 
+  min-width: 100px;  
+}
+.upper_bar{
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: 0;
+  display: grid;
+  grid-template: 4rem/ 20rem auto;
+  align-items: center;
+  gap: 100px;
+  background: rgb(23, 22, 22);
+}
+
+.drn{
+  font-weight: bold;
+  font-family: PTSerif-Regular;
+}
+.description{
+  
+  font-size: 1rem;
+  text-align: start;
+  align-items: start;
+  justify-content: center;
+  font-family: RobotoMono-Regular;
+  font-size:medium;
+  text-align: justify;
+  min-width: 400px;
+  max-width: 400px;
+}
+.presentation_photo{
+  border-radius: 300px;
+  width: 250px;  
+}
+.socialmedia{
+  display: flex;
+  gap: 1rem;  
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  gap:10px;
+}
+.presentation{  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  order:3;  
+} 
+.middle_bar{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap:100px;
+}
+.socialmedia > img{
+  width: 30px;
+  
+}
+
+
+@media (max-width:1000px) {
+
+ .upper_bar{
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+ }
+ .middle_bar{
+  display: flex;
+  flex-direction: column-reverse;
+  gap:0px;
+ }
+ .description{ 
+ text-align: justify;
+
+ }
+}
